@@ -1,4 +1,4 @@
-# testing
+# Professional Readme Generator
   ## Licensed by MIT;
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -8,26 +8,26 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Tests] (#test)
+  * [Tests](#test)
   * [Contribution](#contribution)
-  * [Contact] (#email)
+  * [Contact](#email#username)
   
   ## Description
-  testing
+  Creates a readme file based on user input from answering questions
   
   ## Installation
-  test
+  must install node and npm to run
   
   ## Usage
-  test
+  will be used to help create readme files
   
   ## Tests
-  tesint
+  by trial and error
   
   ## Contribution 
-  test
+  N/A
   
   ## Contact
-  I can be reached by email test@teat or feel free to follow me on GitHub: [testing](https://github.com/testing)
+  I can be reached by email vhmendez817@gmail.com or feel free to follow me on GitHub: [VHS35](https://github.com/VHS35)
   
   

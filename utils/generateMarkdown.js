@@ -1,6 +1,7 @@
 
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+//combine the three separate functions from the starter code into one function
 function generateMarkdown(data) {
   let generateBadge = "";
   let generateLink = "";
@@ -13,12 +14,13 @@ function generateMarkdown(data) {
   } else if (data.license === "IBM") {
     generateBadge = '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)]'
     generateLink = '(https://opensource.org/licenses/IPL-1.0)';
-    generateSection = 'Licensed by IBM';
+    generateSection = '## Licensed by IBM';
   } else if (data.license === "Mozilla") {
     generateBadge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]'
     generateLink = '(https://opensource.org/licenses/MPL-2.0)';
     generateSection = '## Licensed by Mozilla';
   } else if (data.license === "No license") {
+    //return empty strings
     generateBadge = '';
     generateLink = '';
     generateSection = '';
@@ -35,9 +37,9 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Tests] (#test)
+  * [Tests](#test)
   * [Contribution](#contribution)
-  * [Contact] (#email)
+  * [Contact](#email#username)
   
   ## Description
   ${data.description}
